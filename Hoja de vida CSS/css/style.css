@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: rgb(234, 234, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0px 10px 10px rgb(94, 91, 91);
+}
+
+.container .left {
+  position: relative;
+  background-color: rgb(83, 82, 165);
+  padding: 40px;
+}
+
+.name {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.name .boximg {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.name .boximg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  padding-top: 40px;
+}
+.contacto {
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.info ul {
+  position: relative;
+}
+
+.info ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.info ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: rgb(146, 153, 255);
+}
+
+.info ul li span {
+  color: aliceblue;
+}
+
+.name h2 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.name h3 {
+  color: aliceblue;
+  letter-spacing: 1px;
+}
+.habilidades ul {
+  color: aliceblue;
+  margin-top: 10px;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.habilidades .percent {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: rgb(46, 39, 63);
+  display: block;
+  margin-top: 5px;
+}
+
+.habilidades .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: aqua;
+}
+
+.container .right {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+}
+
+.right .about .name2 {
+  font-size: 30px;
+  color: rgb(58, 47, 119);
+  text-align: center;
+}
+.right .about .name3 {
+  font-size: 50px;
+  color: rgb(47, 48, 119);
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.right .about h4 {
+  font-size: 20px;
+  color: rgb(55, 56, 139);
+  margin-bottom: 30px;
+}
+
+.right .about p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.about .box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.about .box .year {
+  min-width: 150px;
+  color: darkcyan;
+}
